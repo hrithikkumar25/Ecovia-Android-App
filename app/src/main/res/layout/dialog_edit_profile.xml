@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#2E2E2E">
+    <ImageView
+        android:id="@+id/dialogEtProfileImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="#424242"
+        android:contentDescription="Profile Image"
+        android:scaleType="centerCrop" />
+    <Button
+        android:id="@+id/dialogEtChangePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="#4CAF50"
+        android:text="Change Photo"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+    <EditText
+        android:id="@+id/dialogEtName"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="name"
+        android:background="#424242"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+    <EditText
+        android:id="@+id/dialogEtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="emailAddress"
+        android:background="#424242"
+        android:enabled="false"
+        android:hint="Email address"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="#CCCCCC"
+        android:textColorHint="#CCCCCC"
+        android:textSize="15sp" />
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dialogEtBtnCancel"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#666666"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/dialogEtBtnSave"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="#4CAF50"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

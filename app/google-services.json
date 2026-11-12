@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "467596694321",
+    "project_id": "greengauge-7b8de",
+    "storage_bucket": "greengauge-7b8de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467596694321:android:627f5810128d1ace421610",
+        "android_client_info": {
+          "package_name": "com.greengauge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBseEnMbIMhDQsW4CTU6j0S68ThJcEBnTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

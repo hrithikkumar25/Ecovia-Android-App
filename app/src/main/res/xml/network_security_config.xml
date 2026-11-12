@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <!-- Base configuration for all network connections -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Only trust system certificate authorities -->
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+
+    <!-- Firebase and Google Services Configuration -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">firebase.googleapis.com</domain>
+        <domain includeSubdomains="true">firestore.googleapis.com</domain>
+        <domain includeSubdomains="true">identitytoolkit.googleapis.com</domain>
+        <domain includeSubdomains="true">securetoken.googleapis.com</domain>
+        <domain includeSubdomains="true">storage.googleapis.com</domain>
+        <domain includeSubdomains="true">fcm.googleapis.com</domain>
+        <domain includeSubdomains="true">firebaseremoteconfig.googleapis.com</domain>
+        <domain includeSubdomains="true">firebaseinstallations.googleapis.com</domain>
+        <domain includeSubdomains="true">googleads.g.doubleclick.net</domain>
+        <domain includeSubdomains="true">googleapis.com</domain>
+
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Eco-friendly data sources and APIs -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.openweathermap.org</domain>
+        <domain includeSubdomains="true">api.epa.gov</domain>
+        <domain includeSubdomains="true">api.carbonfootprint.com</domain>
+        <domain includeSubdomains="true">api.greenpeace.org</domain>
+        <domain includeSubdomains="true">api.worldbank.org</domain>
+        <domain includeSubdomains="true">api.co2signal.com</domain>
+
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </domain-config>
+
+    <!-- E-commerce and product APIs -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.amazon.com</domain>
+        <domain includeSubdomains="true">api.walmart.com</domain>
+        <domain includeSubdomains="true">api.target.com</domain>
+        <domain includeSubdomains="true">api.ebay.com</domain>
+        <domain includeSubdomains="true">api.etsy.com</domain>
+        <domain includeSubdomains="true">api.shopify.com</domain>
+
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Social sharing and media APIs -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.facebook.com</domain>
+        <domain includeSubdomains="true">api.twitter.com</domain>
+        <domain includeSubdomains="true">api.instagram.com</domain>
+        <domain includeSubdomains="true">api.youtube.com</domain>
+        <domain includeSubdomains="true">api.pinterest.com</domain>
+        <domain includeSubdomains="true">api.linkedin.com</domain>
+
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Location and mapping services -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">maps.googleapis.com</domain>
+        <domain includeSubdomains="true">places.googleapis.com</domain>
+        <domain includeSubdomains="true">geocoding.googleapis.com</domain>
+        <domain includeSubdomains="true">directions.googleapis.com</domain>
+
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </domain-config>
+
+    <!-- CDN and content delivery -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">cdn.jsdelivr.net</domain>
+        <domain includeSubdomains="true">unpkg.com</domain>
+        <domain includeSubdomains="true">cdnjs.cloudflare.com</domain>
+        <domain includeSubdomains="true">fonts.googleapis.com</domain>
+        <domain includeSubdomains="true">fonts.gstatic.com</domain>
+
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Debug configuration for development builds only -->
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Accept user-added CA certificates during debugging -->
+            <certificates src="user"/>
+            <certificates src="system"/>
+        </trust-anchors>
+    </debug-overrides>
+
+</network-security-config>

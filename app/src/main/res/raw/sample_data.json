@@ -1,0 +1,470 @@
+{
+  "app_info": {
+    "name": "Ecovia",
+    "version": "1.0.0",
+    "tagline": "Your Eco-Friendly Living Guide",
+    "last_updated": "2025-01-15"
+  },
+  "tips": [
+    {
+      "id": 1,
+      "title": "Switch to LED Bulbs",
+      "description": "Replace incandescent bulbs with LED bulbs to save up to 80% energy",
+      "category": "energy",
+      "difficulty": "beginner",
+      "co2_reduction": 0.5,
+      "estimated_time": "15 minutes",
+      "points": 10,
+      "seasonal": false,
+      "steps": ["Turn off the light switch", "Remove old bulb carefully", "Screw in new LED bulb", "Turn on and test"],
+      "video_url": "https://ecovia.com/videos/led-bulbs",
+      "image_url": "https://ecovia.com/images/led-bulb.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Use Public Transportation",
+      "description": "Take the bus or train instead of driving to reduce carbon emissions",
+      "category": "transport",
+      "difficulty": "beginner",
+      "co2_reduction": 2.3,
+      "estimated_time": "Daily habit",
+      "points": 15,
+      "seasonal": false,
+      "steps": ["Check local transit schedules", "Plan your route in advance", "Purchase transit pass", "Arrive 5 minutes early"],
+      "video_url": "https://ecovia.com/videos/public-transport",
+      "image_url": "https://ecovia.com/images/bus.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Start Composting",
+      "description": "Turn food scraps into nutrient-rich soil for your garden",
+      "category": "waste",
+      "difficulty": "intermediate",
+      "co2_reduction": 1.2,
+      "estimated_time": "30 minutes setup",
+      "points": 25,
+      "seasonal": true,
+      "steps": ["Choose composting method", "Set up compost bin", "Add brown and green materials", "Turn regularly"],
+      "video_url": "https://ecovia.com/videos/composting",
+      "image_url": "https://ecovia.com/images/compost.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Reduce Meat Consumption",
+      "description": "Try Meatless Monday or plant-based meals to lower carbon footprint",
+      "category": "diet",
+      "difficulty": "beginner",
+      "co2_reduction": 3.1,
+      "estimated_time": "Meal planning",
+      "points": 20,
+      "seasonal": false,
+      "steps": ["Plan plant-based meals", "Shop for vegetables", "Try new recipes", "Increase plant-based days"],
+      "video_url": "https://ecovia.com/videos/plant-based",
+      "image_url": "https://ecovia.com/images/vegetables.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Install Smart Thermostat",
+      "description": "Automatically optimize heating and cooling for energy efficiency",
+      "category": "energy",
+      "difficulty": "advanced",
+      "co2_reduction": 4.2,
+      "estimated_time": "2 hours",
+      "points": 50,
+      "seasonal": true,
+      "steps": ["Turn off HVAC power", "Remove old thermostat", "Install smart base", "Configure app"],
+      "video_url": "https://ecovia.com/videos/smart-thermostat",
+      "image_url": "https://ecovia.com/images/thermostat.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Rainwater Harvesting",
+      "description": "Collect rainwater for garden irrigation and reduce water bills",
+      "category": "water",
+      "difficulty": "intermediate",
+      "co2_reduction": 0.8,
+      "estimated_time": "1 hour",
+      "points": 30,
+      "seasonal": true,
+      "steps": ["Install rain barrel", "Connect to downspout", "Add screen filter", "Use for watering"],
+      "video_url": "https://ecovia.com/videos/rainwater",
+      "image_url": "https://ecovia.com/images/rain-barrel.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Bike to Work",
+      "description": "Replace car trips with cycling for zero-emission transportation",
+      "category": "transport",
+      "difficulty": "beginner",
+      "co2_reduction": 5.2,
+      "estimated_time": "Daily commute",
+      "points": 25,
+      "seasonal": false,
+      "steps": ["Plan safe route", "Check bike condition", "Wear safety gear", "Start with short trips"],
+      "video_url": "https://ecovia.com/videos/bike-commute",
+      "image_url": "https://ecovia.com/images/cycling.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Solar Panel Installation",
+      "description": "Generate clean renewable energy for your home",
+      "category": "energy",
+      "difficulty": "advanced",
+      "co2_reduction": 15.5,
+      "estimated_time": "Professional installation",
+      "points": 100,
+      "seasonal": false,
+      "steps": ["Energy audit", "Get quotes", "Choose installer", "Monitor production"],
+      "video_url": "https://ecovia.com/videos/solar-panels",
+      "image_url": "https://ecovia.com/images/solar.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Bamboo Toothbrush Set",
+      "description": "Biodegradable bamboo toothbrushes with soft bristles",
+      "category": "personal_care",
+      "sustainability_rating": 5,
+      "price": 12.99,
+      "currency": "USD",
+      "brand": "EcoSmile",
+      "barcode": "123456789012",
+      "availability": "in_stock",
+      "eco_benefits": ["Biodegradable handle", "Reduces plastic waste", "Sustainable bamboo source"],
+      "alternatives": ["Electric toothbrush", "Recycled plastic toothbrush"],
+      "reviews": [
+        {"rating": 5, "comment": "Great eco-friendly option!", "user": "GreenUser1"},
+        {"rating": 4, "comment": "Good quality bamboo", "user": "EcoWarrior"}
+      ],
+      "image_url": "https://ecovia.com/products/bamboo-toothbrush.jpg",
+      "store_locations": ["Whole Foods", "Target", "Amazon"]
+    },
+    {
+      "id": 2,
+      "name": "Reusable Water Bottle",
+      "description": "Stainless steel insulated water bottle, 32oz capacity",
+      "category": "kitchen",
+      "sustainability_rating": 4,
+      "price": 24.99,
+      "currency": "USD",
+      "brand": "HydroGreen",
+      "barcode": "234567890123",
+      "availability": "in_stock",
+      "eco_benefits": ["Eliminates single-use plastic", "Durable stainless steel", "Keeps drinks cold/hot"],
+      "alternatives": ["Glass water bottle", "Recycled plastic bottle"],
+      "reviews": [
+        {"rating": 5, "comment": "Keeps water cold all day!", "user": "ActiveUser"},
+        {"rating": 4, "comment": "Great build quality", "user": "FitnessGuru"}
+      ],
+      "image_url": "https://ecovia.com/products/water-bottle.jpg",
+      "store_locations": ["REI", "Dick's Sporting Goods", "Amazon"]
+    },
+    {
+      "id": 3,
+      "name": "Solar Phone Charger",
+      "description": "Portable solar panel charger for smartphones and tablets",
+      "category": "electronics",
+      "sustainability_rating": 5,
+      "price": 49.99,
+      "currency": "USD",
+      "brand": "SolarTech",
+      "barcode": "345678901234",
+      "availability": "in_stock",
+      "eco_benefits": ["Uses renewable solar energy", "Reduces grid electricity", "Portable design"],
+      "alternatives": ["Power bank", "Hand crank charger"],
+      "reviews": [
+        {"rating": 4, "comment": "Works great in sunlight", "user": "OutdoorFan"},
+        {"rating": 5, "comment": "Perfect for camping", "user": "Hiker123"}
+      ],
+      "image_url": "https://ecovia.com/products/solar-charger.jpg",
+      "store_locations": ["Best Buy", "REI", "Amazon"]
+    },
+    {
+      "id": 4,
+      "name": "Organic Cotton Tote Bag",
+      "description": "Reusable shopping bag made from organic cotton",
+      "category": "accessories",
+      "sustainability_rating": 4,
+      "price": 8.99,
+      "currency": "USD",
+      "brand": "EcoBag Co",
+      "barcode": "456789012345",
+      "availability": "in_stock",
+      "eco_benefits": ["Replaces plastic bags", "Organic cotton material", "Machine washable"],
+      "alternatives": ["Jute bag", "Recycled polyester bag"],
+      "reviews": [
+        {"rating": 5, "comment": "Sturdy and stylish", "user": "ShopperMom"},
+        {"rating": 4, "comment": "Good size for groceries", "user": "GreenShopper"}
+      ],
+      "image_url": "https://ecovia.com/products/tote-bag.jpg",
+      "store_locations": ["Whole Foods", "Trader Joe's", "Local markets"]
+    },
+    {
+      "id": 5,
+      "name": "LED Light Bulb Pack",
+      "description": "Energy-efficient LED bulbs, 60W equivalent, pack of 4",
+      "category": "home",
+      "sustainability_rating": 5,
+      "price": 19.99,
+      "currency": "USD",
+      "brand": "BrightGreen",
+      "barcode": "567890123456",
+      "availability": "in_stock",
+      "eco_benefits": ["80% less energy consumption", "25x longer lifespan", "Mercury-free"],
+      "alternatives": ["CFL bulbs", "Halogen bulbs"],
+      "reviews": [
+        {"rating": 5, "comment": "Bright and efficient", "user": "HomeOwner"},
+        {"rating": 5, "comment": "Great value pack", "user": "EnergyConscious"}
+      ],
+      "image_url": "https://ecovia.com/products/led-bulbs.jpg",
+      "store_locations": ["Home Depot", "Lowe's", "Amazon"]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "name": "First Steps",
+      "description": "Complete your first eco-friendly activity",
+      "icon": "🌱",
+      "points": 10,
+      "rarity": "common",
+      "category": "milestone",
+      "unlock_condition": "complete_first_activity"
+    },
+    {
+      "id": 2,
+      "name": "Week Warrior",
+      "description": "Maintain a 7-day activity streak",
+      "icon": "🔥",
+      "points": 50,
+      "rarity": "uncommon",
+      "category": "streak",
+      "unlock_condition": "7_day_streak"
+    },
+    {
+      "id": 3,
+      "name": "Carbon Saver",
+      "description": "Save 10kg of CO2 emissions",
+      "icon": "🌍",
+      "points": 100,
+      "rarity": "rare",
+      "category": "impact",
+      "unlock_condition": "save_10kg_co2"
+    },
+    {
+      "id": 4,
+      "name": "Green Commuter",
+      "description": "Use public transport 20 times",
+      "icon": "🚌",
+      "points": 75,
+      "rarity": "uncommon",
+      "category": "transport",
+      "unlock_condition": "20_public_transport_trips"
+    },
+    {
+      "id": 5,
+      "name": "Eco Master",
+      "description": "Reach level 10 in sustainability",
+      "icon": "🏆",
+      "points": 500,
+      "rarity": "legendary",
+      "category": "level",
+      "unlock_condition": "reach_level_10"
+    },
+    {
+      "id": 6,
+      "name": "Waste Warrior",
+      "description": "Complete 15 waste reduction activities",
+      "icon": "♻️",
+      "points": 80,
+      "rarity": "uncommon",
+      "category": "waste",
+      "unlock_condition": "15_waste_activities"
+    }
+  ],
+  "categories": [
+    {
+      "id": "energy",
+      "name": "Energy",
+      "icon": "⚡",
+      "color": "#FF9800",
+      "description": "Tips for reducing energy consumption",
+      "tip_count": 25,
+      "product_count": 15
+    },
+    {
+      "id": "transport",
+      "name": "Transportation",
+      "icon": "🚗",
+      "color": "#2196F3",
+      "description": "Sustainable transportation options",
+      "tip_count": 18,
+      "product_count": 12
+    },
+    {
+      "id": "waste",
+      "name": "Waste",
+      "icon": "♻️",
+      "color": "#9C27B0",
+      "description": "Waste reduction and recycling tips",
+      "tip_count": 22,
+      "product_count": 20
+    },
+    {
+      "id": "diet",
+      "name": "Diet",
+      "icon": "🥗",
+      "color": "#4CAF50",
+      "description": "Sustainable eating habits",
+      "tip_count": 20,
+      "product_count": 30
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "icon": "💧",
+      "color": "#00BCD4",
+      "description": "Water conservation techniques",
+      "tip_count": 15,
+      "product_count": 10
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "icon": "🛒",
+      "color": "#E91E63",
+      "description": "Sustainable shopping practices",
+      "tip_count": 12,
+      "product_count": 25
+    }
+  ],
+  "carbon_factors": {
+    "transport": {
+      "car_gasoline": 0.21,
+      "car_diesel": 0.17,
+      "car_electric": 0.05,
+      "car_hybrid": 0.12,
+      "bus": 0.08,
+      "train": 0.04,
+      "subway": 0.03,
+      "bike": 0.0,
+      "walk": 0.0,
+      "scooter": 0.02,
+      "flight_domestic": 0.25,
+      "flight_international": 0.30,
+      "taxi": 0.19,
+      "rideshare": 0.18
+    },
+    "energy": {
+      "electricity_grid": 0.45,
+      "natural_gas": 0.18,
+      "heating_oil": 0.27,
+      "propane": 0.21,
+      "coal": 0.95,
+      "solar": 0.0,
+      "wind": 0.0,
+      "hydro": 0.02,
+      "nuclear": 0.01
+    },
+    "diet": {
+      "beef": 27.0,
+      "lamb": 39.2,
+      "pork": 12.1,
+      "chicken": 6.9,
+      "turkey": 10.9,
+      "fish": 6.1,
+      "dairy": 3.2,
+      "eggs": 4.8,
+      "vegetables": 2.0,
+      "fruits": 1.1,
+      "grains": 1.4,
+      "legumes": 0.9,
+      "nuts": 2.3
+    },
+    "waste": {
+      "landfill": 0.5,
+      "recycling": -0.2,
+      "composting": -0.3,
+      "incineration": 0.8,
+      "food_waste": 3.3
+    }
+  },
+  "challenges": [
+    {
+      "id": 1,
+      "title": "Green Week Challenge",
+      "description": "Complete 7 eco-friendly activities in one week",
+      "type": "weekly",
+      "duration_days": 7,
+      "points_reward": 100,
+      "badge_reward": "Green Week Warrior",
+      "requirements": ["complete_7_activities", "within_7_days"],
+      "start_date": "2025-01-15",
+      "end_date": "2025-01-22"
+    },
+    {
+      "id": 2,
+      "title": "Zero Waste Month",
+      "description": "Focus on waste reduction activities for 30 days",
+      "type": "monthly",
+      "duration_days": 30,
+      "points_reward": 300,
+      "badge_reward": "Zero Waste Champion",
+      "requirements": ["20_waste_activities", "within_30_days"],
+      "start_date": "2025-02-01",
+      "end_date": "2025-02-28"
+    }
+  ],
+  "user_levels": [
+    {"level": 1, "name": "Eco Beginner", "points_required": 0, "benefits": ["Basic tips access"]},
+    {"level": 2, "name": "Green Learner", "points_required": 100, "benefits": ["Intermediate tips", "Product recommendations"]},
+    {"level": 3, "name": "Sustainability Seeker", "points_required": 250, "benefits": ["Advanced tips", "Challenge participation"]},
+    {"level": 4, "name": "Eco Enthusiast", "points_required": 500, "benefits": ["Expert tips", "Community features"]},
+    {"level": 5, "name": "Green Guardian", "points_required": 1000, "benefits": ["All features", "Leaderboard access"]},
+    {"level": 6, "name": "Eco Warrior", "points_required": 2000, "benefits": ["Mentor status", "Exclusive content"]},
+    {"level": 7, "name": "Sustainability Expert", "points_required": 3500, "benefits": ["Content creation", "Beta features"]},
+    {"level": 8, "name": "Green Ambassador", "points_required": 5000, "benefits": ["Community leadership", "Special rewards"]},
+    {"level": 9, "name": "Eco Champion", "points_required": 7500, "benefits": ["Advanced analytics", "Priority support"]},
+    {"level": 10, "name": "Planet Protector", "points_required": 10000, "benefits": ["All premium features", "Lifetime access"]}
+  ],
+  "seasonal_data": {
+    "spring": {
+      "featured_tips": [1, 3, 6],
+      "seasonal_products": ["Garden tools", "Compost bins", "Rain barrels"],
+      "weather_tips": ["Start composting", "Plant native species", "Collect rainwater"]
+    },
+    "summer": {
+      "featured_tips": [2, 7, 8],
+      "seasonal_products": ["Solar panels", "Bike accessories", "Water bottles"],
+      "weather_tips": ["Use solar energy", "Bike more", "Stay hydrated sustainably"]
+    },
+    "autumn": {
+      "featured_tips": [1, 4, 5],
+      "seasonal_products": ["LED bulbs", "Smart thermostats", "Insulation"],
+      "weather_tips": ["Prepare for heating season", "Reduce energy use", "Eat seasonal foods"]
+    },
+    "winter": {
+      "featured_tips": [1, 5, 4],
+      "seasonal_products": ["Insulation", "Smart thermostats", "Warm clothing"],
+      "weather_tips": ["Optimize heating", "Reduce energy consumption", "Eat warming foods"]
+    }
+  },
+  "daily_tips": [
+    {"day": "monday", "tip_id": 1, "focus": "Energy efficiency"},
+    {"day": "tuesday", "tip_id": 2, "focus": "Sustainable transport"},
+    {"day": "wednesday", "tip_id": 3, "focus": "Waste reduction"},
+    {"day": "thursday", "tip_id": 4, "focus": "Sustainable diet"},
+    {"day": "friday", "tip_id": 6, "focus": "Water conservation"},
+    {"day": "saturday", "tip_id": 7, "focus": "Active transport"},
+    {"day": "sunday", "tip_id": 8, "focus": "Renewable energy"}
+  ],
+  "app_settings": {
+    "notification_types": ["daily_tips", "achievement_unlocked", "challenge_reminder", "streak_reminder"],
+    "measurement_units": ["metric", "imperial"],
+    "default_currency": "USD",
+    "supported_languages": ["en", "es", "fr", "de", "it"],
+    "data_retention_days": 365,
+    "backup_frequency": "weekly"
+  }
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Dark Theme Colors -->
+    <color name="primary_dark">#121212</color>
+    <color name="primary_dark_variant">#2E7D32</color>
+    <color name="secondary_dark">#388E3C</color>
+    <color name="secondary_dark_variant">#4CAF50</color>
+
+    <!-- Background Colors -->
+    <color name="background_primary">#121212</color>
+    <color name="background_secondary">#1E1E1E</color>
+    <color name="background_tertiary">#2D2D2D</color>
+    <color name="surface_dark">#1F1F1F</color>
+    <color name="surface_variant">#2C2C2C</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_tertiary">#808080</color>
+    <color name="text_hint">#666666</color>
+    <color name="text_disabled">#4D4D4D</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_green">#66BB6A</color>
+    <color name="accent_green_light">#81C784</color>
+    <color name="accent_green_dark">#4CAF50</color>
+    <color name="accent_blue">#42A5F5</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_red">#F44336</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Card and Component Colors -->
+    <color name="card_background">#1E1E1E</color>
+    <color name="card_elevated">#2D2D2D</color>
+    <color name="divider">#333333</color>
+    <color name="border">#404040</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary">#2E7D32</color>
+    <color name="button_primary_pressed">#1B5E20</color>
+    <color name="button_secondary">#388E3C</color>
+    <color name="button_secondary_pressed">#2E7D32</color>
+    <color name="button_disabled">#404040</color>
+
+    <!-- Input Field Colors -->
+    <color name="input_background">#2D2D2D</color>
+    <color name="input_border">#404040</color>
+    <color name="input_border_focused">#4CAF50</color>
+    <color name="input_text">#FFFFFF</color>
+    <color name="input_hint">#808080</color>
+
+    <!-- Progress Colors -->
+    <color name="progress_background">#333333</color>
+    <color name="progress_primary">#4CAF50</color>
+    <color name="progress_secondary">#66BB6A</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_green">#4CAF50</color>
+    <color name="chart_light_green">#8BC34A</color>
+    <color name="chart_blue">#2196F3</color>
+    <color name="chart_orange">#FF9800</color>
+    <color name="chart_red">#F44336</color>
+    <color name="chart_purple">#9C27B0</color>
+    <color name="chart_teal">#009688</color>
+
+    <!-- Sustainability Rating Colors -->
+    <color name="rating_excellent">#4CAF50</color>
+    <color name="rating_good">#8BC34A</color>
+    <color name="rating_average">#FFC107</color>
+    <color name="rating_poor">#FF9800</color>
+    <color name="rating_bad">#F44336</color>
+
+    <!-- Transparency Overlays -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#40FFFFFF</color>
+    <color name="ripple_dark">#40FFFFFF</color>
+
+    <!-- Navigation Colors -->
+    <color name="nav_background">#1E1E1E</color>
+    <color name="nav_selected">#4CAF50</color>
+    <color name="nav_unselected">#808080</color>
+
+    <!-- Gamification Colors -->
+    <color name="badge_gold">#FFD700</color>
+    <color name="badge_silver">#C0C0C0</color>
+    <color name="badge_bronze">#CD7F32</color>
+    <color name="streak_fire">#FF5722</color>
+    <color name="points_blue">#2196F3</color>
+
+    <!-- Category Colors -->
+    <color name="category_transport">#2196F3</color>
+    <color name="category_energy">#FF9800</color>
+    <color name="category_waste">#9C27B0</color>
+    <color name="category_diet">#4CAF50</color>
+    <color name="category_water">#00BCD4</color>
+    <color name="category_shopping">#E91E63</color>
+</resources>

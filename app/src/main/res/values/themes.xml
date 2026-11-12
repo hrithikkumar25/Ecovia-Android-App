@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base App Theme - Dark Theme Only -->
+    <style name="Theme.Ecovia" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryVariant">#2E7D32</item>
+        <item name="colorSecondary">#81C784</item>
+        <item name="colorSecondaryVariant">#4CAF50</item>
+        <item name="colorSurface">#121212</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnSecondary">#121212</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:navigationBarColor">#121212</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:forceDarkAllowed">true</item>
+    </style>
+
+    <style name="MyDatePickerSpinnerStyle" parent="android:Widget.Material.Light.DatePicker">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+
+
+    <style name="CustomSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Text color for the entered query -->
+        <item name="android:textColor">@android:color/white</item>
+        <!-- Hint text color -->
+        <item name="android:textColorHint">@android:color/white</item>
+        <!-- You might also need to style the search icon if it's not appearing correctly -->
+        <!-- <item name="searchIcon">@drawable/your_custom_search_icon_white</item> -->
+        <!-- For the close button (X) -->
+        <!-- <item name="closeIcon">@drawable/your_custom_close_icon_white</item> -->
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.Ecovia.Splash" parent="Theme.Ecovia">
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Authentication Theme -->
+    <style name="Theme.Ecovia.Auth" parent="Theme.Ecovia">
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+        <item name="colorPrimary">#4CAF50</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/btn_rounded</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="rippleColor">#33FFFFFF</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Button.Primary">
+        <item name="android:background">@drawable/btn_rounded</item>
+        <item name="android:textColor">#4CAF50</item>
+        <item name="backgroundTint">#2E2E2E</item>
+    </style>
+
+    <style name="Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">#4CAF50</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="strokeColor">#4CAF50</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="rippleColor">#33FFFFFF</item>
+    </style>
+
+    <style name="Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">#4CAF50</item>
+        <item name="android:textSize">16sp</item>
+        <item name="rippleColor">#33FFFFFF</item>
+    </style>
+
+    <style name="Button.Fab" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">#4CAF50</item>
+        <item name="tint">#FFFFFF</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="elevation">6dp</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="Text.Heading" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Subtitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">#CCCCCC</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Text.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="Text.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Hint" parent="Text.Caption">
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="Text.Error" parent="Text.Caption">
+        <item name="android:textColor">#F44336</item>
+    </style>
+
+    <style name="Text.Success" parent="Text.Caption">
+        <item name="android:textColor">#4CAF50</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Card.Default" parent="Widget.Material3.CardView.Elevated">
+        <item name="android:background">@drawable/card_background</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="rippleColor">#33FFFFFF</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Card.Elevated" parent="Card.Default">
+        <item name="cardElevation">8dp</item>
+        <item name="android:background">#2E2E2E</item>
+    </style>
+
+    <style name="Card.Dashboard" parent="Card.Default">
+        <item name="android:minHeight">120dp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="Card.Product" parent="Card.Default">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+
+    <!-- Input Field Styles -->
+    <style name="Input.Default" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">#666666</item>
+        <item name="boxStrokeColor">#4CAF50</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">3dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="Input.EditText" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#2E2E2E</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <!-- Progress Bar Styles -->
+    <style name="Progress.Horizontal" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+        <item name="android:minHeight">8dp</item>
+        <item name="trackColor">#333333</item>
+        <item name="indicatorColor">#4CAF50</item>
+        <item name="trackCornerRadius">4dp</item>
+    </style>
+
+    <style name="Progress.Circular" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorColor">#4CAF50</item>
+        <item name="trackColor">#333333</item>
+        <item name="indicatorSize">48dp</item>
+        <item name="trackThickness">4dp</item>
+    </style>
+
+    <!-- Toolbar/AppBar Styles -->
+    <style name="Toolbar.Default" parent="Widget.Material3.Toolbar">
+        <item name="android:background">#1E1E1E</item>
+        <item name="android:elevation">4dp</item>
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="subtitleTextColor">#CCCCCC</item>
+        <item name="android:theme">@style/ThemeOverlay.Material3.Dark</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="BottomNavigation.Default" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">#8b8b8b</item>
+        <item name="itemIconTint">#121212</item>
+        <item name="itemTextColor">#121212</item>
+        <item name="itemActiveIndicatorStyle">@style/BottomNavigation.ActiveIndicator</item>
+        <item name="android:elevation">8dp</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+    <style name="BottomNavigation.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#4CAF50</item>
+    </style>
+
+    <!-- Tab Layout Styles -->
+    <style name="TabLayout.Default" parent="Widget.Material3.TabLayout">
+        <item name="android:background">#1E1E1E</item>
+        <item name="tabTextColor">#CCCCCC</item>
+        <item name="tabSelectedTextColor">#4CAF50</item>
+        <item name="tabIndicatorColor">#4CAF50</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabGravity">start</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="Chip.Default" parent="Widget.Material3.Chip.Filter">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="chipBackgroundColor">#2E2E2E</item>
+        <item name="chipStrokeColor">#444444</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">8dp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="Chip.Selected" parent="Chip.Default">
+        <item name="chipBackgroundColor">#4CAF50</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Rating Bar Style -->
+    <style name="RatingBar.Default" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressTint">#4CAF50</item>
+        <item name="android:secondaryProgressTint">#333333</item>
+        <item name="android:backgroundTint">#333333</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+
+    <!-- Switch Style -->
+    <style name="Switch.Default" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="thumbTint">#4CAF50</item>
+        <item name="trackTint">#2E2E2E</item>
+    </style>
+
+    <!-- FIXED: Base Divider and Badge Styles -->
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#333333</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="Badge">
+        <item name="android:background">#4CAF50</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">20dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- Extended Styles -->
+    <style name="Divider.Default" parent="Divider" />
+
+    <style name="Badge.Default" parent="Badge" />
+
+    <!-- Search View Style -->
+    <style name="SearchView.Default" parent="Widget.Material3.SearchView">
+        <item name="android:background">#2E2E2E</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#666666</item>
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="queryBackground">@android:color/transparent</item>
+        <item name="submitBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- Snackbar Style -->
+    <style name="Snackbar.Default" parent="Widget.Material3.Snackbar">
+        <item name="android:background">#2E2E2E</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:actionMenuTextColor">#4CAF50</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="Dialog.Default" parent="ThemeOverlay.Material3.Dialog">
+        <item name="android:windowBackground">#1E1E1E</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="colorPrimary">#4CAF50</item>
+    </style>
+
+    <!-- Spinner Style -->
+    <style name="Spinner.Default" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:background">#2E2E2E</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="boxStrokeColor">#4CAF50</item>
+    </style>
+
+</resources>

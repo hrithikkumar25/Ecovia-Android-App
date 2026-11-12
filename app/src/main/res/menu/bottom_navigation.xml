@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/nav_dashboard"
+        android:contentDescription="@string/nav_dashboard"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/nav_tracking"
+        android:icon="@drawable/ic_tracking"
+        android:title="@string/nav_tracking"
+        android:contentDescription="@string/nav_tracking"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/nav_products"
+        android:icon="@drawable/ic_products"
+        android:title="@string/nav_products"
+        android:contentDescription="@string/nav_products"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/nav_tips"
+        android:icon="@drawable/ic_tips"
+        android:title="@string/nav_tips"
+        android:contentDescription="@string/nav_tips"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/nav_profile"
+        android:contentDescription="@string/nav_profile"
+        android:enabled="true" />
+
+</menu>
